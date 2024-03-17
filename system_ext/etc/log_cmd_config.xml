@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmdConfig>
+    <item id="000000" name="default">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n -1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+    </item>
+    <item id="010101" name="systemUI">
+        <cmd command="dumpsys notification" targetpath="dumpsys_notification.xml"></cmd>
+        <cmd command="dumpsys activity service com.oplus.notificationmanager" targetpath="dumpsys_notificationmanager.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys activity service com.android.systemui" targetpath="dumpsys_systemUi.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="dumpsys_meidia_session.txt"></cmd>
+        <cmd command="dumpsys telephony.registry" targetpath="dumpsys_telephony_registry.txt"></cmd>
+        <cmd command="dumpsys battery" targetpath="dumpsys_battery.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="dumpsys_audio.txt"></cmd>
+    </item>
+    <item id="010201" name="launcher">
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="dumpsys notification" targetpath="dumpsys_notification.xml"></cmd>
+    </item>
+    <item id="010301" name="screen_shot">
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="010401" name="clock">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys package com.heytap.speechassist" targetpath="dumpsys_com_heytap_speechassist.txt"></cmd>
+        <cmd command="dumpsys package com.coloros.weather.service" targetpath="dumpsys_weather_service.txt"></cmd>
+        <cmd command="wm size" targetpath="wm_size.txt"></cmd>
+        <cmd command="wm density" targetpath="wm_density.txt"></cmd>
+    </item>
+    <item id="010501" name="sticky_note">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+    </item>
+</cmdConfig>

@@ -1,0 +1,50 @@
+on property:sys.oplus.high.performance.spec=1
+    start thpon
+
+on property:sys.oplus.high.performance.spec=0
+    start thpoff
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=5
+    start random_read_cpuset
+
+on property:sys.oplus.high.performance.spec=6
+    start random_write_cpuset
+
+on property:sys.oplus.high.performance.spec=7
+    start default_cpuset
+
+service thpon /system/system_ext/bin/oplus_performance_bench.sh "thp_enable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service thpoff /system/system_ext/bin/oplus_performance_bench.sh "thp_disable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service default_cpuset /system/system_ext/bin/oplus_performance_bench.sh "default_cpuset"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot

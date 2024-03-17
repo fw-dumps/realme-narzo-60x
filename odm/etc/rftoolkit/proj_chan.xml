@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <RAT name="LTE">
+        <Band number="41">
+            <Channel type="Low">40065</Channel>
+            <Channel type="Mid">40640</Channel>
+            <Channel type="High">41215</Channel>
+        </Band>
+    </RAT>
+    <RAT name="NR5G">
+        <Band number="41">
+            <Channel type="Low">508002</Channel>
+            <Channel type="Mid">518598</Channel>
+            <Channel type="High">529995</Channel>
+        </Band>
+    </RAT>
+</RFTOOLKIT>

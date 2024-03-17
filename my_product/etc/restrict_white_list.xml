@@ -1,0 +1,16 @@
+<filter-conf>
+    <version>20230830</version>
+    <isOpen>1</isOpen>
+	<filter-name>restrict_white_list</filter-name>
+    <restrictWhitePkg>com.google.android.youtube</restrictWhitePkg>
+	<restrictWhitePkg>com.oplus.camera</restrictWhitePkg>
+	<restrictWhitePkg>com.tencent.ig</restrictWhitePkg>
+	<restrictWhitePkg>com.pubg.imobile</restrictWhitePkg>
+	<restrictWhitePkg>com.mobile.legends</restrictWhitePkg>
+	<restrictWhitePkg>com.dts.freefireth</restrictWhitePkg>
+	<restrictWhitePkg>com.ngame.allstar.eu</restrictWhitePkg>
+	<restrictWhitePkg>com.lilithgame.roc.gp</restrictWhitePkg>
+	<restrictWhitePkg>com.netease.lztgglobal</restrictWhitePkg>
+	<restrictWhitePkg>com.netease.mrzhna</restrictWhitePkg>
+	<restrictWhitePkg>com.activision.callofduty.shooter</restrictWhitePkg>
+</filter-conf>

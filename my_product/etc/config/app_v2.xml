@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <disable pkg="com.coloros.lockassistant" priority="7"/>
+  <disable pkg="com.glance.internet" priority="7"/>
+  <disable pkg="com.heytap.pictorial" priority="7"/>
+  <disable pkg="com.oplus.qualityprotect" priority="7"/>
+  <disable pkg="com.oplus.nhs" priority="7"/>
+</app>

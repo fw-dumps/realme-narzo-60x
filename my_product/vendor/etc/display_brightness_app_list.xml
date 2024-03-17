@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <version>20230613</version>
+
+    <!-- add for HDR enhance brightness feature-->
+    <hdr_enhance_method>
+        <app>com.coloros.video</app>
+        <app>com.heytap.yoli</app>
+        <app>com.tencent.qqlive</app>
+        <app>tv.danmaku.bili</app>
+        <app>com.google.android.youtube</app>
+        <app>com.google.android.youtube</app>
+        <app>com.netflix.mediaclient</app>
+        <app>com.amazon.avod.thirdpartyclient</app>
+        <app>org.videolan.vlc</app>
+        <factor>2.0</factor>
+        <threshold>40</threshold>
+    </hdr_enhance_method>
+
+    <MarvelsAIBrightnessSupport>1</MarvelsAIBrightnessSupport>
+</root>

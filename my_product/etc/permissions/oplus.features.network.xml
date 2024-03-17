@@ -1,0 +1,64 @@
+<oplus-config>
+    <!-- Pangwei@NETWORK.REG.12109, 2020/09/24, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.light_smart5g_enabled"/>
+    <!-- ZhuangYunteng@NETWORK.REG.249851, 2020/10/30, add for smart5g-sa -->
+    <oplus-feature name="oplus.software.radio.smart5g_sa_enabled"/>
+    <!-- ChenYong4@NETWORK.REG.7403, 2020/10/30, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.dual_sims_smart5g_enabled" />
+    <!-- PengHao@NETWORK.DATA.8124, 2020/05/08, Add for network quality evaluation.OPLUS_FEATURE_DATA_EVAL -->
+    <oplus-feature name="oplus.software.radio.data_eval" />
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery"/>
+    <!-- WangJianwei@NETWORK.REG.313285, 2020/09/30, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+    <oplus-feature name="oplus.software.radio.nr_always_sa_pre"/>
+    <!-- ZhuNian@NETWORK.DATA, 2020/09/11, bugid:276081 -->
+    <oplus-feature name="oplus.software.radio.game_err"/>
+    <oplus-feature name="oplus.software.radio.dds_switch"/>
+    <!-- YeShengAn@NETWORK.RF.8039, 2021/03/11, add for engineer sale pa test Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.eng_salepatest_support"/>
+    <!-- wangrufei@NETWORK.RF.8039, 2021/03/31, add for earpiece detect support -->
+    <oplus-feature name="oplus.software.radio.sar.earpiece.detect.support"/>
+
+    <!-- Xupeng@NETWORK.REG, 2020/3/23, Add for optimate the nr signal of NSA -->
+    <oplus-feature name="oplus.software.radio.nsa_signal_optim" />
+
+    <!--WangJianwei@NETWORK.CALL, 2020/11/7,Add for SilentRdial-->
+    <oplus-feature name="oplus.software.radio.silent_redial_supported" />
+    <!-- ZhaoWeican@NETWORK.RF., 2021/12/02, add for use SarService via STS -->
+    <oplus-feature name="oplus.software.radio.sar_via_sts_support" />
+
+    <!--WangJianwei@NETWORK.CALL, 2020/11/7, add for vonr switch and dynamic update-->
+    <oplus-feature name="oplus.software.radio.vonr_switch_enabled"/>
+    <oplus-feature name="oplus.software.radio.vonr_city_control"/>
+    <!-- KangJin@NETWORK.DATA.1207635, 20201/03/09, add foreign sw disalbe nw limit notification-->
+    <oplus-feature name="oplus.software.radio.disable_nw_limit_notify"/>
+
+    <!-- ZhuangYunteng@NETWORK.REG.7403, 2021/02/19, add for LTE prefer when gaming -->
+    <oplus-feature name="oplus.software.radio.smart5g_game_lte_prefer"/>
+    <oplus-feature name="oplus.software.radio.smart5g_sa_environment_game_lte_prefer"/>
+
+    <!-- CynricZhao@NETWORK.TELE, 2020/12/30, smart5g ext rtt and nr signal,game Latency -->
+    <oplus-feature name="oplus.software.radio.smart5g_nr_signal_check"/>
+    <oplus-feature name="oplus.software.radio.smart5g_game_latency_check"/>
+    <!--liti@NETWORK.RF,2022/06/21, add new_pa_aging_support feature-->
+    <oplus-feature name="oplus.software.radio.new_pa_aging_support"/>
+    <!-- Liangyun@NETWORK.REG.2769242 ,2021/12/13, disable SA when mtk modem dump 3 times in 2 hours -->
+    <oplus-feature name="oplus.software.radio.disable_5g_nr_5gdump" />
+    <oplus-feature name="oplus.software.radio.sa_apm_control" />
+    <oplus-feature name="oplus.software.radio.sa_tac_control" />
+    <!-- yangzhaoji@NETWORK.DATA.2631350, 2021/11/26, Add for game backoff sa -->
+    <oplus-feature name="oplus.software.radio.game_backoff_sa"/>
+
+    <!-- #ifdef ODM_HQ_EDIT -->
+    <!-- TanYizhe@NETWORK.SIM.5094779, 2023/01/15, add for thermal nr deprio and hotspot enable Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.smart5g_thermal_nr_deprio" />
+    <!-- TanYizhe@NETWORK.SIM.5094779, 2023/01/15, modify for Power Recovery Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_power_recovery_switch_enable" />
+    <!-- TanYizhe@NETWORK.SIM.5094779, 2023/01/15, add for supprese signal in deepsleep -->
+    <oplus-feature name="oplus.software.radio.nwpower_supprese_signal_report_enable"/>
+    <!-- #endif ODM_HQ_EDIT -->
+    <!-- Donghongjing@NETWORK.REG.5991270, 2023/07/27, Add for disabled cached UID -->
+    <oplus-feature name="oplus.software.radio.disabled_cached_uid" />
+    <!-- #endif ODM_HQ_EDIT -->
+</oplus-config>

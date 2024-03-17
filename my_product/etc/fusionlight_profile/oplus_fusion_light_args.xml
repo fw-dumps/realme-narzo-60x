@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Attributes level="1">
+    <Project level="2" index="1">
+        <ProjectCode type="string">23604</ProjectCode>
+        <Baseline type="string">MT6835</Baseline>
+        <Panel type="int" name="tcs3720">3</Panel>
+        <LevelMax type="int">15</LevelMax>
+        <FileVersion type="int">20230131</FileVersion>
+    </Project>
+    <Args level="2" index="2">
+        <Golden level="3" index="1" ratio=10000.0>
+            <RRgolden type="float">516320000.00</RRgolden>
+            <RGgolden type="float">138840000.00</RGgolden>
+            <RBgolden type="float">19920000.00</RBgolden>
+            <RWgolden type="float">625210000.00</RWgolden>
+            <GRgolden type="float">46210000.00</GRgolden>
+            <GGgolden type="float">308130000.00</GGgolden>
+            <GBgolden type="float">49670000.00</GBgolden>
+            <GWgolden type="float">361270000.00</GWgolden>
+            <BRgolden type="float">35050000.00</BRgolden>
+            <BGgolden type="float">101920000.00</BGgolden>
+            <BBgolden type="float">108960000.00</BBgolden>
+            <BWgolden type="float">227600000.00</BWgolden>
+            <CRgolden type="float">555040000.00</CRgolden>
+            <CGgolden type="float">509210000.00</CGgolden>
+            <CBgolden type="float">165490000.00</CBgolden>
+            <CWgolden type="float">1125040000.00</CWgolden>
+        </Golden>
+        <R_Parameter level="3" index="1" ratio=10000000.0>
+            <RR3 type="float">11893.6181090</RR3>
+            <RR2 type="float">4331141.7167620</RR2>
+            <RR1 type="float">172261754.8881320</RR1>
+            <RR0 type="float">0</RR0>
+            <RG3 type="float">3621.3673730</RG3>
+            <RG2 type="float">1190317.8525400</RG2>
+            <RG1 type="float">3038451.3165520</RG1>
+            <RG0 type="float">0</RG0>
+            <RB3 type="float">353.7174280</RB3>
+            <RB2 type="float">228553.1577200</RB2>
+            <RB1 type="float">-3718071.3447810</RB1>
+            <RB0 type="float">0</RB0>
+            <RW3 type="float">16717.4740980</RW3>
+            <RW2 type="float">-3131444.3741540</RW2>
+            <RW1 type="float">110784940.9170600</RW1>
+            <RW0 type="float">0</RW0>
+        </R_Parameter>
+        <G_Parameter level="3" index="1" ratio=10000000.0>
+            <GR3 type="float">1105.1642020</GR3>
+            <GR2 type="float">391652.9472680</GR2>
+            <GR1 type="float">11655264.2729200</GR1>
+            <GR0 type="float">0</GR0>
+            <GG3 type="float">8563.0304470</GG3>
+            <GG2 type="float">2485179.7818500</GG2>
+            <GG1 type="float">13564842.6055380</GG1>
+            <GG0 type="float">0</GG0>
+            <GB3 type="float">961.8290740</GB3>
+            <GB2 type="float">527332.3002320</GB2>
+            <GB1 type="float">-3555179.2051070</GB1>
+            <GB0 type="float">0</GB0>
+            <GW3 type="float">212.7967190</GW3>
+            <GW2 type="float">-110226.3715450</GW2>
+            <GW1 type="float">11023543.7251820</GW1>
+            <GW0 type="float">0</GW0>
+        </G_Parameter>
+        <B_Parameter level="3" index="1" ratio=10000000.0>
+            <BR3 type="float">747.3532860</BR3>
+            <BR2 type="float">318077.5915780</BR2>
+            <BR1 type="float">9197255.4709540</BR1>
+            <BR0 type="float">0</BR0>
+            <BG3 type="float">2839.9482200</BG3>
+            <BG2 type="float">831174.3165670</BG2>
+            <BG1 type="float">1914369.7364320</BG1>
+            <BG0 type="float">0</BG0>
+            <BB3 type="float">2230.8534490</BB3>
+            <BB2 type="float">1115010.3055360</BB2>
+            <BB1 type="float">-4292001.0438590</BB1>
+            <BB0 type="float">0</BB0>
+            <BW3 type="float">2785.0674500</BW3>
+            <BW2 type="float">-512427.6092030</BW2>
+            <BW1 type="float">14884160.5250060</BW1>
+            <BW0 type="float">0</BW0>
+        </B_Parameter>
+        <C_Parameter level="3" index="1" ratio=10000000.0>
+            <CR3 type="float">12836.4938810</CR3>
+            <CR2 type="float">4640247.5040150</CR2>
+            <CR1 type="float">184688103.8101490</CR1>
+            <CR0 type="float">0</CR0>
+            <CG3 type="float">14107.6796060</CG3>
+            <CG2 type="float">4111105.5788060</CG2>
+            <CG1 type="float">24951585.7970980</CG1>
+            <CG0 type="float">0</CG0>
+            <CB3 type="float">3412.2753840</CB3>
+            <CB2 type="float">1678130.9794580</CB2>
+            <CB1 type="float">-4018641.3625720</CB1>
+            <CB0 type="float">0</CB0>
+            <CW3 type="float">16717.4740980</CW3>
+            <CW2 type="float">-3131444.3741540</CW2>
+            <CW1 type="float">110784940.9170600</CW1>
+            <CW0 type="float">0</CW0>
+        </C_Parameter>
+        <GreyScale level="3" index="1" ratio=10000000.0>
+            <RRGreyScale type="float">7648278.7225218</RRGreyScale>
+            <RGGreyScale type="float">2056645.1383540</RGGreyScale>
+            <RBGreyScale type="float">295076.1391243</RBGreyScale>
+            <GRGreyScale type="float">1143783.5697136</GRGreyScale>
+            <GGGreyScale type="float">7626791.4160541</GGGreyScale>
+            <GBGreyScale type="float">1229425.0142323</GBGreyScale>
+            <BRGreyScale type="float">1425202.2933355</BRGreyScale>
+            <BGGreyScale type="float">4144268.6943439</BGGreyScale>
+            <BBGreyScale type="float">4430529.0123206</BBGreyScale>
+            <CRGreyScale type="float">4513474.3929611</CRGreyScale>
+            <CGGreyScale type="float">4140793.9889733</CGGreyScale>
+            <CBGreyScale type="float">1345731.6180656</CBGreyScale>
+        </GreyScale>
+        <Lux_Coeff_IR_Threshold_Range level="3" index="1">
+            <threshold0 type="float">0.08</threshold0>
+            <threshold1 type="float">0.29</threshold1>
+        </Lux_Coeff_IR_Threshold_Range>
+        <Lux_Coeff_Brightness_Range level="3" index="1">
+            <level0 type="int">1204</level0>
+            <level1 type="int">1527</level1>
+            <level2 type="int">4095</level2>
+        </Lux_Coeff_Brightness_Range>
+        <Lux_Coeff_Lir level="3" index="1" ratio=1.0>
+            <R0 type="float">-0.006837</R0>
+            <G0 type="float">-0.009984</G0>
+            <B0 type="float">0.007087</B0>
+            <C0 type="float">0.01204</C0>
+            <R1 type="float">-0.023754</R1>
+            <G1 type="float">-0.017247</G1>
+            <B1 type="float">-0.024539</B1>
+            <C1 type="float">0.028656</C1>
+            <R2 type="float">-0.023754</R2>
+            <G2 type="float">-0.017247</G2>
+            <B2 type="float">-0.024539</B2>
+            <C2 type="float">0.028656</C2>
+        </Lux_Coeff_Lir>
+        <Lux_Coeff_Hir level="3" index="1" ratio=1.0>
+            <R0 type="float">-0.008499</R0>
+            <G0 type="float">-0.003263</G0>
+            <B0 type="float">-0.005385</B0>
+            <C0 type="float">0.012272</C0>
+            <R1 type="float">-0.004286</R1>
+            <G1 type="float">0.021370</G1>
+            <B1 type="float">-0.018493</B1>
+            <C1 type="float">0.003268</C1>
+            <R2 type="float">-0.004286</R2>
+            <G2 type="float">0.021370</G2>
+            <B2 type="float">-0.018493</B2>
+            <C2 type="float">0.003268</C2>
+        </Lux_Coeff_Hir>
+        <Lux_Coeff_Super_Hir level="3" index="1" ratio=1000.0>
+            <R0 type="float">-8.499</R0>
+            <G0 type="float">-3.263</G0>
+            <B0 type="float">-5.385</B0>
+            <C0 type="float">12.272</C0>
+            <R1 type="float">-4.286</R1>
+            <G1 type="float">21.370</G1>
+            <B1 type="float">-18.493</B1>
+            <C1 type="float">3.268</C1>
+            <R2 type="float">0.4691</R2>
+            <G2 type="float">0.614708</G2>
+            <B2 type="float">1.050784</B2>
+            <C2 type="float">2.548513</C2>
+        </Lux_Coeff_Super_Hir>
+        <Linearity_Brightness_Range level="3" index="1">
+            <brightness0>301</brightness0>
+            <brightness1>3515</brightness1>
+        </Linearity_Brightness_Range>
+        <Linearity_Brightness_Range_New level="3" index="1">
+            <brightness0>601</brightness0>
+            <brightness1>1800</brightness1>
+            <brightness2>4095</brightness2>
+        </Linearity_Brightness_Range_New>
+        <Linearity_Parameter level="3" index="1" ratio=1000000.0>
+            <R_Fun0_Para0 type="float">19826879.200</R_Fun0_Para0>
+            <R_Fun0_Para1 type="float">-836989.938</R_Fun0_Para1>
+            <R_Fun1_Para0 type="float">0.01535941807476</R_Fun1_Para0>
+            <R_Fun1_Para1 type="float">207.74501771435300</R_Fun1_Para1>
+            <R_Fun1_Para2 type="float">78310.88876856260000</R_Fun1_Para2>
+            <G_Fun0_Para0 type="float">11108759.495</G_Fun0_Para0>
+            <G_Fun0_Para1 type="float">-801198.997</G_Fun0_Para1>
+            <G_Fun1_Para0 type="float">0.02229924066457</G_Fun1_Para0>
+            <G_Fun1_Para1 type="float">192.14175918426700</G_Fun1_Para1>
+            <G_Fun1_Para2 type="float">46718.83804517140000</G_Fun1_Para2>
+            <B_Fun0_Para0 type="float">9210823.141</B_Fun0_Para0>
+            <B_Fun0_Para1 type="float">-775940.436</B_Fun0_Para1>
+            <B_Fun1_Para0 type="float">0.02272632903620</B_Fun1_Para0>
+            <B_Fun1_Para1 type="float">192.11151209142500</B_Fun1_Para1>
+            <B_Fun1_Para2 type="float">42483.08244991620000</B_Fun1_Para2>
+            <C_Fun0_Para0 type="float">15387343.752</C_Fun0_Para0>
+            <C_Fun0_Para1 type="float">-820774.085</C_Fun0_Para1>
+            <C_Fun1_Para0 type="float">0.01767717268271</C_Fun1_Para0>
+            <C_Fun1_Para1 type="float">204.47919654298200</C_Fun1_Para1>
+            <C_Fun1_Para2 type="float">61771.48715526760000</C_Fun1_Para2>
+        </Linearity_Parameter>
+        <Linearity_Parameter_NEW level="3" index="1" ratio=1000000.0>
+            <R_Fun0_Para0 type="float">0000000.00013922210628</R_Fun0_Para0>
+            <R_Fun0_Para1 type="float">-0000000.06487527708975</R_Fun0_Para1>
+            <R_Fun0_Para2 type="float">0000029.30319573245410</R_Fun0_Para2>
+            <R_Fun0_Para3 type="float">0007014.71098229329000</R_Fun0_Para3>
+            <R_Fun1_Para0 type="float">0.0</R_Fun1_Para0>
+            <R_Fun1_Para1 type="float">0000000.08004324447956</R_Fun1_Para1>
+            <R_Fun1_Para2 type="float">-0000007.67397193116652</R_Fun1_Para2>
+            <R_Fun1_Para3 type="float">0005796.74552820637000</R_Fun1_Para3>
+            <R_Fun2_Para0 type="float">0.0</R_Fun2_Para0>
+            <R_Fun2_Para1 type="float">0000000.08276156070286</R_Fun2_Para1>
+            <R_Fun2_Para2 type="float">-0000001.33901082094147</R_Fun2_Para2>
+            <R_Fun2_Para3 type="float">-0019843.72380418690000</R_Fun2_Para3>
+            <G_Fun0_Para0 type="float">0000000.00011204328831</G_Fun0_Para0>
+            <G_Fun0_Para1 type="float">-0000000.04095104756491</G_Fun0_Para1>
+            <G_Fun0_Para2 type="float">0000020.61871273436130</G_Fun0_Para2>
+            <G_Fun0_Para3 type="float">0004562.88539292282000</G_Fun0_Para3>
+            <G_Fun1_Para0 type="float">-0000000.00001251068708</G_Fun1_Para0>
+            <G_Fun1_Para1 type="float">0000000.12169501903668</G_Fun1_Para1>
+            <G_Fun1_Para2 type="float">-0000062.91674315589470</G_Fun1_Para2>
+            <G_Fun1_Para3 type="float">0023243.89563148990000</G_Fun1_Para3>
+            <G_Fun2_Para0 type="float">0.0</G_Fun2_Para0>
+            <G_Fun2_Para1 type="float">0000000.09260587654396</G_Fun2_Para1>
+            <G_Fun2_Para2 type="float">-0000044.68150161812930</G_Fun2_Para2>
+            <G_Fun2_Para3 type="float">0009989.91463643956000</G_Fun2_Para3>
+            <B_Fun0_Para0 type="float">0000000.00011594858772</B_Fun0_Para0>
+            <B_Fun0_Para1 type="float">-0000000.04519719438026</B_Fun0_Para1>
+            <B_Fun0_Para2 type="float">0000021.92881651085960</B_Fun0_Para2>
+            <B_Fun0_Para3 type="float">0003991.09660589748000</B_Fun0_Para3>
+            <B_Fun1_Para0 type="float">0.0</B_Fun1_Para0>
+            <B_Fun1_Para1 type="float">0000000.07659179988023</B_Fun1_Para1>
+            <B_Fun1_Para2 type="float">-0000011.15791848646480</B_Fun1_Para2>
+            <B_Fun1_Para3 type="float">0004160.12023561859000</B_Fun1_Para3>
+            <B_Fun2_Para0 type="float">0.0</B_Fun2_Para0>
+            <B_Fun2_Para1 type="float">0000000.09201738006489</B_Fun2_Para1>
+            <B_Fun2_Para2 type="float">-0000041.61568129772070</B_Fun2_Para2>
+            <B_Fun2_Para3 type="float">0005996.21816523499000</B_Fun2_Para3>
+            <C_Fun0_Para0 type="float">0.0</C_Fun0_Para0>
+            <C_Fun0_Para1 type="float">0000000.06056154826884</C_Fun0_Para1>
+            <C_Fun0_Para2 type="float">-0000002.33683790218771</C_Fun0_Para2>
+            <C_Fun0_Para3 type="float">0007350.62802482697000</C_Fun0_Para3>
+            <C_Fun1_Para0 type="float">-0000000.00001638780406</C_Fun1_Para0>
+            <C_Fun1_Para1 type="float">0000000.13766715000175</C_Fun1_Para1>
+            <C_Fun1_Para2 type="float">-0000077.01845768229580</C_Fun1_Para2>
+            <C_Fun1_Para3 type="float">0029613.61008543740000</C_Fun1_Para3>
+            <C_Fun2_Para0 type="float">0.0</C_Fun2_Para0>
+            <C_Fun2_Para1 type="float">0000000.08644582546225</C_Fun2_Para1>
+            <C_Fun2_Para2 type="float">-0000017.34247321470760</C_Fun2_Para2>
+            <C_Fun2_Para3 type="float">-0009944.91389159952000</C_Fun2_Para3>
+        </Linearity_Parameter_NEW>
+        <SpecialCustom>
+            <HighLightReport type="int">0</HighLightReport>
+            <LowLightReport type="int">0</LowLightReport>
+            <ZeroReport type="int">0</ZeroReport>
+            <LowLightStable type="int">0</LowLightStable>
+            <SmoothQueue type="int">0</SmoothQueue>
+            <MaxLevel type="float">3515</MaxLevel>
+            <ApolloLight type="float">1</ApolloLight>
+            <ApolloMaxBrightness type="int">8191</ApolloMaxBrightness>
+            <LowLightAccuracy type="float">3.0</LowLightAccuracy>
+            <LowLightAccuracy1 type="float">1.0</LowLightAccuracy1>
+            <CWBScreenShot type="int">1</CWBScreenShot>
+            <CWBScreenShotRectParas type="string">773,33,805,65</CWBScreenShotRectParas>
+            <BrightnessFromEvent type="int">1</BrightnessFromEvent>
+        </SpecialCustom>
+    </Args>
+</Attributes>

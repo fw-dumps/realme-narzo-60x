@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20211013</version>
+    <isOpen>1</isOpen>
+    <filter-name>bindsmallcore_blacklist</filter-name>
+    <bl>com.google.android.gsf</bl>
+    <bl>com.google.android.configupdater</bl>
+    <bl>com.heytap.pictorial</bl>
+    <bl>com.oplus.midas</bl>
+    <bl>com.coloros.sceneservice</bl>
+    <blp>com.tencent.mm:appbrand0</blp>
+    <blp>com.tencent.mm:appbrand1</blp>
+    <blp>com.tencent.mm:appbrand2</blp>
+</filter-conf>

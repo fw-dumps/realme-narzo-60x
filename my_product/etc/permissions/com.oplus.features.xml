@@ -1,0 +1,22 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oplus.hw.manufacturer.mtk" />
+    <feature name="mtk.gemini.support" />
+
+    <feature name="android.hardware.usb.host" />
+
+    <!-- Zengpeng.Chen@CHG.BSP.Basic 2021/02/02, add for typec otg feature -->
+    <feature name="oplus.typecotg.connection.menu.support" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="android.hardware.biometrics.face" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24, Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add for wake up arouse -->
+    <oplus-feature name="oplus.software.wake_up_arouse_support" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add end -->
+
+    <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add for blackgesture -->
+    <oplus-feature name="oplus.software.gesture_proximitysensor" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add end -->
+</permissions>

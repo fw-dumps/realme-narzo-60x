@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pathConfig>
+    <item id="000000" name="default">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+    </item>
+    <item id="010101" name="systemUI">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/sdcard/Documents/app_dump" pattern="sysui_dump.*.gz" option="mv" latest="3" targetpath="sysui_dump"></path>
+    </item>
+    <item id="010201" name="launcher">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+    </item>
+    <item id="010301" name="screen_shot">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="3" targetpath="systrace"></path>
+    </item>
+    <item id="010401" name="clock">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+    </item>
+    <item id="010501" name="sticky_note">
+        <path dir="/data/debugging" pattern="minilog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debuglogger" pattern="mobilelog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="0" targetpath="common"></path>
+    </item>
+</pathConfig>

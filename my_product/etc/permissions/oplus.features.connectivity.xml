@@ -1,0 +1,16 @@
+<oplus-config>
+
+    <oplus-feature name="oplus.software.bt.switchlog" />
+    <oplus-feature name="oplus.software.wlan.smart_gear" />
+
+    <!-- LiXiong@CONNECTIVITY.WIFI.NETWORK.ROUTERBOOST, 2020/09/27   -->
+    <oplus-feature name="oplus.software.wlan.routerboost" />
+    <oplus-feature name="oplus.software.btc.dynamic_tdd" />
+    <oplus-feature name="oplus.software.wlan.low_latency" />
+
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.3574191, 2022/10/20, Add for wifi connection self cure v3 -->
+    <oplus-feature name="oplus.software.wlan.connection_selfcure_v3" />
+
+    <!-- Dengyanhui@CONNECTIVITY.WIFI.HARDWARE.ATPC, 2023/6/09,add for atpc   -->
+    <oplus-feature name="oplus.software.wlan.atpc" />
+</oplus-config>

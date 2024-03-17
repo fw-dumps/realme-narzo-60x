@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- kai.yue@APP, 2022/11/10, disable voluem blur for device -->
+    <app_feature name="com.android.systemui.disable_volume_blur"/>
+    <!--#endif OPLUS_EDIT-->
+</extend_features>
